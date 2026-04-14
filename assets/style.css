@@ -1,0 +1,22 @@
+@media (min-width: 960px) {
+	.rvf-is-sticky {
+		position: sticky;
+		top: 80px;
+		height: fit-content;
+		align-self: flex-start;
+	}
+}
+
+/* ====== jgs3v6zz メニュー =============== */
+.jgs3v6zz {
+  .__column {}
+  .__item {}
+  .__itemWrapper {}
+  .__image {}
+  .__title {}
+  .__band {
+		position: relative;
+		z-index: -1;
+		margin-top: -120px;
+	}
+}
