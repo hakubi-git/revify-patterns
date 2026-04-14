@@ -16,7 +16,7 @@ require __DIR__ . '/vendor/plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/あなたのユーザー名/リポジトリ名/', // ★ここを自分のリポジトリURLに変更
+    'https://github.com/hakubi-git/revify-patterns/',
     __FILE__,
     'revify-patterns'
 );
