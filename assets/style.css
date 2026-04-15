@@ -106,10 +106,10 @@
 
 /* ====== a3har5lo =============== */
 .a3har5lo {
-  .__wrapper {
+  &.__wrapper {
 		border-radius: 16px;
 		background: #ffffff1a !important;
-		padding: 16px;
+		padding: 1.5rem 2rem;
 		backdrop-filter: blur(6px);
 	}
   .__column {}
