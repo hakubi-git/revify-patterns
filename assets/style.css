@@ -1,13 +1,13 @@
 @media (min-width: 960px) {
 	.rvf-is-sticky {
 		position: sticky;
-		top: 80px;
+		top: 120px;
 		height: fit-content;
 		align-self: flex-start;
 	}
 }
 
-/* ====== jgs3v6zz メニュー =============== */
+/* ====== jgs3v6zz =============== */
 .jgs3v6zz {
   .__column {}
   .__item {}
@@ -20,3 +20,106 @@
 		margin-top: -120px;
 	}
 }
+
+/* ====== uq9pufxy =============== */
+.uq9pufxy {
+  .__subTitle {}
+  .__title {}
+  .__column {}
+  .__item {
+		position: relative;
+	}
+  .__itemWrapper {}
+  .__stepNum {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+  .__itemTitle {
+		margin-top: 1rem !important;
+	}
+  .__itemText {}
+}
+
+/* ====== voviqtiu =============== */
+.voviqtiu {
+  .__subTitle {}
+  .__secMessage {}
+  .__colulmn {}
+  .__item {
+		background: #ffffff1a;
+		backdrop-filter: blur(6px);
+	}
+  .__itemTitle {}
+  .__itemText {}
+  .__button {}
+  .__icon {}
+}
+
+/* ====== flgnn58s =============== */
+.flgnn58s {
+	.__secTitle {}
+	.__column {}
+	.__item {}
+	.__cover {}
+	.__coverText {}
+	.__text {}
+	.__button {
+		/* 変数 */
+		--line_height: 1px; /* 下線の太さ */
+		--line_color: var(--color_main); /* 下線の色 */
+		--line_width: 1.2em; /* 下線の長さ調節（大きくするほど短くなる） */
+		--transition_speed: 0.4s; /* 下線が出る速度 */
+
+		.swell-block-button__link {
+			border-radius: 0;
+			border-width: 0;
+			position: relative;
+			text-decoration: none;
+			background-color: transparent !important;
+			padding-bottom: 6px;
+		}
+		.swell-block-button__link::after {
+			content: '';
+			position: absolute;
+			left: var(--line_width);
+			bottom: 0;
+			width: 0;
+			height: var(--line_height);
+			background-color: var(--line_color); 
+			transition: width var(--transition_speed) ease;
+		}
+		.swell-block-button__link:hover {
+			color: var(--color_main) !important;
+			&::after {
+				width: calc(100% - var(--line_width) * 2 + 6px);
+			}
+			.__icon {
+				transform: translateX(4px);
+			}
+		}
+		.swell-block-button__link .__icon {
+			transition: transform 0.2s ease;
+		}
+	}
+}
+
+/* ====== a3har5lo =============== */
+.a3har5lo {
+  .__wrapper {
+		border-radius: 16px;
+		background: #ffffff1a !important;
+		padding: 16px;
+		backdrop-filter: blur(6px);
+	}
+  .__column {}
+  .__item {}
+  .__mainCopy {}
+  .__subCopy {}
+  .__message {}
+  .__btn {}
+  .__tel {}
+  .__time {}
+  .__day {}
+}
+
