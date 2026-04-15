@@ -173,3 +173,44 @@
   .__icon {}
 }
 
+.__button.dolvczcf {
+	/* 変数 */
+	--line_height: 1px; /* 下線の太さ */
+	--line_color: var(--color_main); /* 下線の色 */
+	--line_width: 1.2em; /* 下線の長さ調節（大きくするほど短くなる） */
+	--transition_speed: 0.4s; /* 下線が出る速度 */
+
+	.swell-block-button__link {
+		border-radius: 0;
+		border-width: 0;
+		position: relative;
+		text-decoration: none;
+		background-color: transparent !important;
+		padding-bottom: 6px;
+	}
+	.swell-block-button__link::after {
+		content: '';
+		position: absolute;
+		left: var(--line_width);
+		bottom: 0;
+		width: 0;
+		height: var(--line_height);
+		background-color: var(--line_color); 
+		transition: width var(--transition_speed) ease;
+	}
+	.swell-block-button__link:hover {
+		span, svg {
+			color: var(--color_main);
+		}
+		&::after {
+			width: calc(100% - var(--line_width) * 2 + 6px);
+		}
+		.__icon {
+			transform: translateX(4px);
+		}
+	}
+	.swell-block-button__link .__icon {
+		transition: transform 0.2s ease;
+	}
+}
+

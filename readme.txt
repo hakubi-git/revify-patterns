@@ -2,7 +2,7 @@
 Contributors: hakubi-git
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.0.10
+Stable tag: 1.0.11
 
 == Description ==
 revify受講生専用のSWELL用ブロックパターン集です。
