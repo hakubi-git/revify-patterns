@@ -2,7 +2,7 @@
 Contributors: hakubi-git
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 
 == Description ==
 Revify開発　SWELL用ブロックパターン集です。
