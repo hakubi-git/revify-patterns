@@ -175,8 +175,8 @@
 
 .__button.dolvczcf {
 	/* 変数 */
+	--line_color: var(--color_main); /* 文字色 */
 	--line_height: 1px; /* 下線の太さ */
-	--line_color: var(--color_main); /* 下線の色 */
 	--line_width: 1.2em; /* 下線の長さ調節（大きくするほど短くなる） */
 	--transition_speed: 0.4s; /* 下線が出る速度 */
 
@@ -187,6 +187,7 @@
 		text-decoration: none;
 		background-color: transparent !important;
 		padding-bottom: 6px;
+		color: var(--line_color);
 	}
 	.swell-block-button__link::after {
 		content: '';
@@ -200,7 +201,7 @@
 	}
 	.swell-block-button__link:hover {
 		span, svg {
-			color: var(--color_main);
+			color: var(--line_color);
 		}
 		&::after {
 			width: calc(100% - var(--line_width) * 2 + 6px);
