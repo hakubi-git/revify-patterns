@@ -2,10 +2,10 @@
 Contributors: hakubi-git
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.0.12
+Stable tag: 1.0.13
 
 == Description ==
-Revify開発　SWELL用ブロックパターン集ですR
+Revify開発　SWELL用ブロックパターン集です。
 このプラグインを有効にすると、ブロックエディタの「パターン」からRevifyオリジナルのデザインを呼び出せます。
 
 == Changelog ==
