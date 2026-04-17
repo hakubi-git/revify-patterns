@@ -9,11 +9,6 @@
 
 /* ====== jgs3v6zz =============== */
 .jgs3v6zz {
-  .__column {}
-  .__item {}
-  .__itemWrapper {}
-  .__image {}
-  .__title {}
   .__band {
 		position: relative;
 		z-index: -1;
@@ -23,9 +18,6 @@
 
 /* ====== uq9pufxy =============== */
 .uq9pufxy {
-  .__subTitle {}
-  .__title {}
-  .__column {}
   .__item {
 		position: relative;
 	}
@@ -43,27 +35,14 @@
 
 /* ====== voviqtiu =============== */
 .voviqtiu {
-  .__subTitle {}
-  .__secMessage {}
-  .__colulmn {}
   .__item {
 		background: #ffffff1a;
 		backdrop-filter: blur(6px);
 	}
-  .__itemTitle {}
-  .__itemText {}
-  .__button {}
-  .__icon {}
 }
 
 /* ====== flgnn58s =============== */
 .flgnn58s {
-	.__secTitle {}
-	.__column {}
-	.__item {}
-	.__cover {}
-	.__coverText {}
-	.__text {}
 	.__button {
 		/* 変数 */
 		--line_height: 1px; /* 下線の太さ */
@@ -112,24 +91,10 @@
 		padding: 1.5rem 2rem;
 		backdrop-filter: blur(6px);
 	}
-  .__column {}
-  .__item {}
-  .__mainCopy {}
-  .__subCopy {}
-  .__message {}
-  .__btn {}
-  .__tel {}
-  .__time {}
-  .__day {}
 }
 
 /* ====== z31vperu =============== */
 .z31vperu {
-  .__column {}
-  .__item {}
-  .__cover {}
-  .__title {}
-  .__subTitle {}
   .__button {
 		/* 変数 */
 		--line_height: 1px; /* 下線の太さ */
@@ -222,14 +187,6 @@
 		backdrop-filter: blur(6px);
 		padding: 16px 24px;
 	}
-	.__column {}
-	.__item {}
-	.__secTitle {}
-	.__secMessage {}
-	.__tel {}
-	.__holiday {}
-  .__button {}
-  .__icon {}
 }
 
 /* ====== x51n46ig =============== */
@@ -248,6 +205,45 @@
 		img {
 			transform: scale(var(--scale));
 			transition: transform .3s ease;
+		}
+	}
+}
+
+/* ====== m7e2tdje =============== */
+.m7e2tdje {
+  .__contentWrapper {
+		height: 100%;
+	}
+}
+
+
+
+/* ====== xgre46gn =============== */
+@media(min-width: 960px) {
+	.xgre46gn {
+		.__item {
+			&.--content {
+				.__contentWrapper {
+					padding-right: calc(32px + 120px);
+					padding-left: 56px
+				}
+				margin-right: -120px;
+			}
+		}
+	}
+}
+
+/* ====== qmrqopeh =============== */
+@media(min-width: 960px) {
+	.qmrqopeh {
+		.__item {
+			&.--content {
+				.__contentWrapper {
+					padding-left: calc(32px + 120px);
+					padding-right: 56px;
+				}
+				margin-left: -120px;
+			}
 		}
 	}
 }
