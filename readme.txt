@@ -2,7 +2,7 @@
 Contributors: hakubi-git
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.0.23
+Stable tag: 1.1.0
 
 == Description ==
 Revify開発　SWELL用ブロックパターン集です。
@@ -15,3 +15,6 @@ Revify開発　SWELL用ブロックパターン集です。
 * プレ公開
 = 1.0.23 =
 * SMF項目の誤選択を修正。（お電話番号「mail」>「tel」）
+
+= 1.1.0 =
+* 公開。
