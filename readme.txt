@@ -1,4 +1,4 @@
-=== revify Patterns for SWELL ===
+=== Revify Patterns for SWELL ===
 Contributors: hakubi-git
 Requires at least: 6.0
 Tested up to: 6.5
