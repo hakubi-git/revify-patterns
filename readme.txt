@@ -2,7 +2,7 @@
 Contributors: hakubi-git
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 
 == Description ==
 Revify開発　SWELL用ブロックパターン集です。
@@ -19,6 +19,6 @@ Revify開発　SWELL用ブロックパターン集です。
 = 1.1.0 =
 * 公開。
 
-= 1.1.4 =
+= 1.1.5 =
 * リンクグループメニューセクションのテキストリンクに不要な見出し用のセレクタが残っていた。
 * これによりCSSプロパティの競合にてリンク判定がうまくいかなかった問題を修正。
