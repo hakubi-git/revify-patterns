@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Revify Patterns for SWELL
  * Description: Revify製　SWELL用のカスタムブロックパターン集
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Revify
  * Text Domain: revify-patterns
  */
